@@ -1,0 +1,196 @@
+body {
+    background-image: url(../images/background.jpg);
+}
+
+/* navbar */
+nav {
+    list-style-type: none;
+    margin: 0px auto;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    position: -webkit-sticky; /* for safari */
+    top: 0;
+    z-index: 99999;
+  }
+  
+nav a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+nav a:hover:not(.active) {
+    color: black;
+    background-color: lightgray;
+  }
+
+  .active {
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border: solid 1px;
+    border-color: black;
+  } 
+  
+nav a:hover {
+      color: black;
+  }
+  
+  /* end of navbar css */
+
+.ui.container {
+    background-color: #f9f9f9;
+    padding: 1em;
+    margin-top:2em;
+    border: solid white;
+}
+
+div.ui.stackable.grid.container {
+  background-color: #f9f9f9;
+}
+
+div.ui.grid.container {
+  background-color: #f9f9f9;
+}
+
+.footer.ui.segment {
+  margin: 5em 0em 0em;
+  padding: 5em 0em;
+  position: relative;
+  position: -webkit-sticky;
+  text-align: center;
+}
+
+
+div.center.aligned.container {
+  background-color: #1b1c1d;
+}
+
+div.ui.centered.top.banner.test.ad {
+  background-color: #1b1c1d;
+}
+
+div.card span {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div.card span.right.floated {
+  font-weight: bolder;
+  color: black;
+}
+
+div.card span.NA {
+  color: red;
+  font-weight: bold;
+}
+
+div.card span.EU {
+  color: blue;
+  font-weight: bold;
+}
+
+/* index */
+section {
+  padding: 1em;
+}
+
+button {
+  background: rgb(25, 26, 27);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Lato';
+  margin: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background: orangered;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.heading {
+  color: #373fff;
+}
+
+#more {
+  display: none;
+  margin-top: 1em;    
+}
+
+/* carousel images */
+.rslides {
+	margin: 0 auto 40px;
+  }
+  
+  #slider {
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	margin: 2em auto;
+  }
+  
+  .rslides_tabs {
+	list-style: none;
+	padding: 0;
+	background: rgb(37, 35, 35);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), inset 0 0 5px rgb(180, 180, 180);
+	-moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), inset 0 0 5px rgb(180, 180, 180);
+	-webkit-box-shadow: 0 0 1px rgba(8, 8, 8, 0.3)inset 0 0 5px rgb(180, 180, 180);
+	font-size: 18px;
+	list-style: none;
+	margin: 0 auto 50px;
+	max-width: 750px;
+	padding: 10px 0;
+	text-align: center;
+	width: 100%;
+  }
+  
+  .rslides_tabs li {
+	display: inline;
+	float: none;
+	margin-right: 1px;
+  }
+  
+  .rslides_tabs a {
+	width: auto;
+	line-height: 40px;
+	padding: 9px 20px;
+	height: auto;
+	background: transparent;
+	display: inline;
+  }
+  
+  .rslides_tabs li:first-child {
+	margin-left: 0;
+  }
+  
+/* animation */
+#more {
+  display: none;
+  margin-top: 1em;
+  transform: scale(0);
+  transition: 3s ease transform;
+}
+
+/* table */
+table, th, td {
+	border:solid black 2px;
+}
+
+table {
+	width: 40%;
+	margin:2% auto;
+    border-collapse: collapse;
+}
+
+td {
+    text-align:center;
+}
